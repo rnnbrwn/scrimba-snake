@@ -1,0 +1,36 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: blue;
+}
